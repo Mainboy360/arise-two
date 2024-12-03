@@ -1,0 +1,83 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  margin-top: 50px;
+}
+  
+ .left-right-nav {
+   display: flex;
+   justify-content: space-around;
+   gap: 300px;
+ }
+
+.ariseone{
+  background: #1F509A;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.arisethree {
+  background: #FF6600;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+
+.left-right-nav-two {
+   display: flex;
+   justify-content: space-around;
+   gap: 300px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+  
+ }
+
+
+.arise-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.photo-gallery {
+   display: flex;
+  justify-content: center;
+   text-align: center; 
+   font-size: 2rem;
+   margin-top: 100px;
+}
