@@ -83,6 +83,19 @@ body {
    margin-top: 100px;
 }
 
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  padding: 20px;
+}
+
+img[src$="svg"] {
+  width: 80px;
+  height: 100%;
+}
+
 .footer {
   display: flex;
   justify-content: center;
