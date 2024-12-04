@@ -107,6 +107,11 @@ img[src$="svg"] {
   border-bottom-width: 100px;
 }
 
+.photo {
+  border-bottom: 7px solid #399918;
+  padding-bottom: 20px;
+  color: #7A1CAC;
+}
 
 a:link {
   text-decoration: none;
