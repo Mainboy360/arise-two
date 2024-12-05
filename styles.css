@@ -47,6 +47,14 @@ body {
   border-radius: 10px;
 }
 
+.homepage{
+  background: #1A1A1D;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
 .arisethree {
   background: #FF6600;
   color: white;
@@ -54,6 +62,7 @@ body {
   border: 1px solid white;
   border-radius: 10px;
 }
+
 
 
 .left-right-nav-two {
